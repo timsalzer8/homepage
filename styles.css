@@ -1,0 +1,132 @@
+body {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #f0f0f0;
+            background-color: rgb(29, 29, 44);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+
+        .content {
+            text-align: left;
+            max-width: 800px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .cover {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px white;
+        }
+
+        .headline {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #f0f0f0;
+        }
+
+        .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #302e46;
+        color: rgb(250, 154, 10);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 40px;
+        box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+        z-index: 1000;
+        }
+
+        .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #f0f0f0;
+        }       
+
+
+        .menu a {
+        color: white;
+        text-decoration: none;
+        margin-right: 50px;
+        font-size: 1rem;
+        transition: color 0.2s;
+        padding-right: 15px;
+        }
+
+        .menu a:hover {
+        color: rgb(250, 154, 10);
+        }
+
+        .menu a.active {
+        color: rgb(250, 154, 10);
+        font-weight: bold;
+        }
+
+        .material-symbols-outlined {
+        font-family: "Material Symbols Outlined";
+        font-variation-settings:
+        "FILL" 0,
+        "wght" 400,
+        "GRAD" 0,
+        "opsz" 24;
+        font-size: 24px;
+        margin-right: 4px;
+        vertical-align: middle;
+        }
+    
+        .hobby-list {
+        display: flex;
+        align-items: flex-start;
+        gap: 22px;
+        margin-bottom: 20px;
+        flex-wrap: nowrap;
+        }
+
+        .hobby-list .material-symbols-outlined {
+        font-size: 28px;
+        margin-top: 4px;
+        }
+
+        .hobby-list div {
+        font-family: "Roboto", sans-serif;
+        color: #f0f0f0;
+        text-align: left;
+        display: inline-block;
+        }
+
+        a {
+        color: rgb(250, 154, 10);
+        text-decoration: underline;    
+        }
+
+        .training-list {
+        list-style: none;
+        padding-left: 0;
+        color: #f0f0f0;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 20px;
+        }
+        
+        .training-list li {
+        margin-bottom: 12px;
+        padding-left: 0;
+        line-height: 1.6;
+        display: flex;
+        align-items: start;
+        gap: 10px;
+        }
